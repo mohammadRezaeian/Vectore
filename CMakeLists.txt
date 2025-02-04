@@ -4,5 +4,5 @@ project(CustomVectore)
 set(CMAKE_CXX_STANDARD 20)
 
 add_executable(CustomVectore main.cpp
-        ClassCustomVectore.cpp
+#        ClassCustomVectore.cpp
         ClassCustomVectore.h)
