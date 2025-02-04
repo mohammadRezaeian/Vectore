@@ -25,6 +25,9 @@ ClassCustomVectore<TypeTemplate>::ClassCustomVectore(const int size): m_capacity
     m_ValueVectore = new TypeTemplate[size];
 }
 
+// TODO: Implementation
+//  resize automatic if size changed
+
 template <typename TypeTemplate>
 void ClassCustomVectore<TypeTemplate>::pushBack(const TypeTemplate _Value)
 {
